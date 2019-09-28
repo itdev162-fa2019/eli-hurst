@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Hurst\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
