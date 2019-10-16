@@ -221,11 +221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Hurst\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Application\\obj\\",
+      "outputPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -246,11 +246,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Domain\\Domain.csproj"
+            "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Persistence\\Persistence.csproj"
+            "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Persistence\\Persistence.csproj"
             }
           }
         }

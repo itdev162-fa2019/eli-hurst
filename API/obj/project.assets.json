@@ -12139,11 +12139,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Hurst\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\API\\obj\\",
+      "outputPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12164,8 +12164,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\Assingment 2\\eli-hurst\\Application\\Application.csproj"
+            "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Hurst\\OneDrive\\Desktop\\All Coding Work\\ITDEV-162 ClientSrvr & E-Commerce Impl\\eli-hurst\\Application\\Application.csproj"
             }
           }
         }
