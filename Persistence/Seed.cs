@@ -5,13 +5,13 @@ using Domain;
 
 namespace Persistence
 {
-    public class Seed
+  public class Seed
+  {
+    public static void SeedData(DataContext context)
     {
-        public static void SeedData(DataContext context)
-        {
-            if (!context.Posts.Any())
-            {
-                var Posts = new List<Post>
+      if (!context.Posts.Any())
+      {
+        var Posts = new List<Post>
             {
               new Post {
                 Title = "First post!",
@@ -30,9 +30,9 @@ namespace Persistence
               }
             };
 
-                context.Posts.AddRange(Posts);
-                context.SaveChanges();
-            }
-        }
+        context.Posts.AddRange(Posts);
+        context.SaveChanges();
+      }
     }
+  }
 }
