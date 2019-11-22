@@ -12,27 +12,27 @@ namespace API.Controllers
     public class PostsController : ControllerBase
     {
         private readonly DataContext context;
-
         public PostsController(DataContext context)
         {
             this.context = context;
         }
 
-        ///<summary> 
-        // GET api/posts
-        ///</summary>
+
+        /// <summary>
+        /// GET api/posts
+        /// </summary>
         /// <returns>A list of posts</returns>
+
         [HttpGet]
         public ActionResult<List<Post>> Get()
         {
             return this.context.Posts.ToList();
         }
-
-        /// <summary>
-        /// Get api/post/[id]
-        /// </summary>
-        /// <param name= "id">Post id</param>
-        /// <returns>A single post</returns>
+        ///<summary>
+        ///GET api/posts/[id]
+        ///</summary>
+        ///<param name="id">Post id</param>
+        ///<returns>A single post</returns>
         [HttpGet("{id}")]
         public ActionResult<Post> GetById(Guid id)
         {
@@ -40,12 +40,11 @@ namespace API.Controllers
         }
 
         /// <summary>
-        ///  Post api/post
+        /// GET api/posts
         /// </summary>
         /// <param name="request">JSON request containing post fields</param>
-        /// <returns>A new post</returns>
+        /// <returns>A new posts</returns>
         [HttpPost]
-
         public ActionResult<Post> Create([FromBody]Post request)
         {
             var post = new Post
@@ -59,31 +58,29 @@ namespace API.Controllers
             context.Posts.Add(post);
             var success = context.SaveChanges() > 0;
 
-            if (success)
+            if(success)
             {
                 return post;
             }
 
             throw new Exception("Error creating post");
         }
-
-        /// <summary>
-        /// PUT api/put
-        /// </summary
-        /// <param name="request">JSON request containing one or more updated post fields</param>
-        /// <returns>An updated post</returns>
+        ///<summary>
+        ///PUT api/put
+        ///</summary>
+        ///<param name="request">JSON request containing one or more updated post fields</param>
+        ///<returns>An update post</returns>
         [HttpPut]
-
         public ActionResult<Post> Update([FromBody]Post request)
         {
             var post = context.Posts.Find(request.Id);
 
             if (request == null)
             {
-                throw new Exception("Could not find post");
+                throw new Exception("could not find post");
             }
 
-            // Update the post properties with request values, if present.
+            //Update the post properties with request values, if present.
             post.Title = request.Title != null ? request.Title : post.Title;
             post.Body = request.Body != null ? request.Body : post.Body;
             post.Date = request.Date != null ? request.Date : post.Date;
@@ -95,7 +92,34 @@ namespace API.Controllers
                 return post;
             }
 
-            throw new Exception("Error updating post");
+            throw new Exception("error updating post");
+        }
+
+        /// <summary>
+        /// DELETE api/post/[id]
+        ///</summary>
+        ///<param name="id">Post id</param>
+        ///<returns>True, if successful</returns>
+        [HttpDelete("{id}")]
+        public ActionResult<bool> Delete(Guid id)
+        {
+            var post = context.Posts.Find(id);
+
+            if (post == null)
+            {
+                throw new Exception("Could not find post");
+            }
+
+            context.Remove(post);
+
+            var success = context.SaveChanges() > 0;
+
+            if (success)
+            {
+                return true;
+            }
+
+            throw new Exception("Error deleting post");
         }
 
     }

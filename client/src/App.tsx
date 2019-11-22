@@ -1,14 +1,14 @@
 import React from 'react';
+import './App.css';
 import axios from 'axios';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import PostList from './components/PostList/PostList.js';
-import Post from './components/Post/Post.js';
-import './App.css';
+import PostList from './components/PostList/PostList';
+import Post from './components/Post/Post';
 
 
 class App extends React.Component {
   state = {
-    posts: [],
+    posts:[],
     post: null
   }
 
@@ -19,9 +19,9 @@ class App extends React.Component {
         posts: response.data
       })
     })
-      .catch((error) => {
-        console.error(`Error fetching data: ${error}`);
-      })
+    .catch((error) => {
+      console.error(`Error fetching data: ${error}`);
+    })
   }
 
   viewPost = (post) => {
@@ -30,26 +30,28 @@ class App extends React.Component {
       post: post
     });
   }
-  
-  render() {
-    const { posts, post } = this.state;
+
+  render(){
+    const {posts, post} = this.state;
 
     return (
       <Router>
         <div className="App">
-          <header className="App-header">BlogBox</header>
+          <header className="App-header">
+            BlogBox
+          </header>
           <main className="App-content">
             <Switch>
-              <Route exact path="/">
+              <Router exact path="/">
                 <PostList posts={posts} clickPost={this.viewPost} />
-              </Route>
-              <Route path="/posts/:postId">
+              </Router>
+              <Router path="/posts/:postId">
                 <Post post={post} />
-              </Route>
+              </Router>
             </Switch>
           </main>
         </div>
-      </Router> 
+      </Router>
     );
   }
 }
