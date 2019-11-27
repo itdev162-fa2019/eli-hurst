@@ -8,7 +8,7 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20191031195712_CreateDb")]
+    [Migration("20191002234401_CreateDb")]
     partial class CreateDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
